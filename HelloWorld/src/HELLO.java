@@ -19,15 +19,15 @@ public class HELLO {
 		System.out.println(x.get("risshi"));
 		System.out.println(x);
 		
-		Map t= new HashMap();
-		t.put("tim", 421);
-		t.put("risshi", "ass" );
-		t.put("brownie", 422);
-		System.out.println(t.get("risshi"));
-		System.out.println(t);
-	    t.containsValue("422");
+		Map e= new HashMap();
+		e.put("tim", 421);
+		e.put("risshi", "ass" );
+		e.put("brownie", 422);
+		System.out.println(e.get("risshi"));
+		System.out.println(e);
+	    e.containsValue("422");
 	   
-	    System.out.println( t.containsKey("risshi"));
+	    System.out.println( e.containsKey("risshi"));
 	    
 	    //Problems
 	    
